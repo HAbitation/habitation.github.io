@@ -1,30 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-12T22:10:24+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HAbitation</title><subtitle>Information about my Home Automation setup to inspire you with ideas.</subtitle><entry><title type="html">General fixes and improvements</title><link href="http://localhost:4000/2016/02/05/general-fixes-and-improvements/" rel="alternate" type="text/html" title="General fixes and improvements" /><published>2016-02-05T00:00:00+00:00</published><updated>2016-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2016/02/05/general-fixes-and-improvements</id><content type="html" xml:base="http://localhost:4000/2016/02/05/general-fixes-and-improvements/">&lt;p&gt;This release fixes a few minor issues reported by users. We’ve also made a few quality of life improvements.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-12T22:24:46+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HAbitation</title><subtitle>Information about my Home Automation setup to inspire you with ideas.</subtitle><entry><title type="html">Added categories</title><link href="http://localhost:4000/2020/01/12/categories/" rel="alternate" type="text/html" title="Added categories" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/12/categories</id><content type="html" xml:base="http://localhost:4000/2020/01/12/categories/">&lt;p&gt;Created the categories based on my own flow structure in Homey.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Streamlined access to contact details&lt;/li&gt;
-  &lt;li&gt;Better sort order for archived messages&lt;/li&gt;
+  &lt;li&gt;Menu items on the left, added the right emoji’s&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Fixes:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Input sometimes getting stuck&lt;/li&gt;
-  &lt;li&gt;One more memory leak obliterated&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">This release fixes a few minor issues reported by users. We’ve also made a few quality of life improvements.</summary></entry><entry><title type="html">Media support</title><link href="http://localhost:4000/2016/01/12/media-support/" rel="alternate" type="text/html" title="Media support" /><published>2016-01-12T00:00:00+00:00</published><updated>2016-01-12T00:00:00+00:00</updated><id>http://localhost:4000/2016/01/12/media-support</id><content type="html" xml:base="http://localhost:4000/2016/01/12/media-support/">&lt;p&gt;ChatApp introduces media support! Send images, videos and documents to your contacts.&lt;/p&gt;
+  &lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Created the categories based on my own flow structure in Homey.</summary></entry><entry><title type="html">Introduction</title><link href="http://localhost:4000/2020/01/12/introduction/" rel="alternate" type="text/html" title="Introduction" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/12/introduction</id><content type="html" xml:base="http://localhost:4000/2020/01/12/introduction/">&lt;p&gt;Written the first version of the introduction.&lt;/p&gt;</content><author><name></name></author><summary type="html">Written the first version of the introduction.</summary></entry><entry><title type="html">Created the initial page</title><link href="http://localhost:4000/2020/01/11/creation/" rel="alternate" type="text/html" title="Created the initial page" /><published>2020-01-11T00:00:00+00:00</published><updated>2020-01-11T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/11/creation</id><content type="html" xml:base="http://localhost:4000/2020/01/11/creation/">&lt;p&gt;Chosen a theme and created the repo.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Image support&lt;/li&gt;
-  &lt;li&gt;Video support&lt;/li&gt;
-  &lt;li&gt;Document support&lt;/li&gt;
+  &lt;li&gt;Initial setup of the page&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Fixes:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Edge case contact syncing issue&lt;/li&gt;
-  &lt;li&gt;All memory leaks obliterated&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">ChatApp introduces media support! Send images, videos and documents to your contacts.</summary></entry></feed>
+  &lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Chosen a theme and created the repo.</summary></entry></feed>

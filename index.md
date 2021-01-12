@@ -12,7 +12,7 @@ I build my home automation (HA) in a way that tasks in and around your house are
 
 HA should detect a broad variety of events and act upon it in a desirable, predictable and natural fashion.
 
-In addition, HA should not only help you in your day-to-day activities by performing certain tasks, but also notify events from happening..
+In addition, HA should not only help you in your day-to-day activities by performing certain tasks, but also notify events from happening.
 
 Since any type of automation comes with its fair amount of bugs and also down time is often inevitable, manual controls for important functions should always remain possible as a redudant or failover measure.
 
