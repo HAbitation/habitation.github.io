@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Search | HAbitation</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Search" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Information about my Home Automation setup to inspire you with ideas." />
+<meta property="og:description" content="Information about my Home Automation setup to inspire you with ideas." />
+<link rel="canonical" href="http://localhost:4000/search/" />
+<meta property="og:url" content="http://localhost:4000/search/" />
+<meta property="og:site_name" content="HAbitation" />
+<script type="application/ld+json">
+{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"url":"http://localhost:4000/search/","headline":"Search","description":"Information about my Home Automation setup to inspire you with ideas.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="HAbitation" />
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				<a href="/"><img src="/images/emblem.svg" width="40" height="40" alt="HAbitation logo"></a>
+				HAbitation
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Introduction</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/daily/morning/">Daily</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/daily/morning/">🌞 Morning</a></li>
+								
+									<li class="nav-item "><a href="/daily/afternoon/">🌅 Afternoon</a></li>
+								
+									<li class="nav-item "><a href="/daily/evening/">🌅 Evening</a></li>
+								
+									<li class="nav-item "><a href="/daily/night/">🌙 Night</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/devices/alarm/">Devices</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/devices/alarm/">🚨 Alarm</a></li>
+								
+									<li class="nav-item "><a href="/devices/appliances/">🧺 Appliances</a></li>
+								
+									<li class="nav-item "><a href="/devices/cubecontrol/">🧊 Cube Control</a></li>
+								
+									<li class="nav-item "><a href="/devices/doorbell/">🚪 Doorbell</a></li>
+								
+									<li class="nav-item "><a href="/devices/googlehome/">🎵 Google Home</a></li>
+								
+									<li class="nav-item "><a href="/devices/heating/">🔥 Heating</a></li>
+								
+									<li class="nav-item "><a href="/devices/tv/">📺 TV</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/environment/weather/">Environment</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/environment/weather/">☀️ Weather</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/light/doors/">Light</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/light/doors/">🚪 Doors</a></li>
+								
+									<li class="nav-item "><a href="/light/manual/">🎚 Manual</a></li>
+								
+									<li class="nav-item "><a href="/light/movement/">🚶‍♂️ Movement</a></li>
+								
+									<li class="nav-item "><a href="/light/scenes/">🎬 Scenes</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/presence/asleep/">Presence</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/presence/asleep/">🌙 Asleep</a></li>
+								
+									<li class="nav-item "><a href="/presence/awake/">☀️ Awake</a></li>
+								
+									<li class="nav-item "><a href="/presence/cominghome/">🏠 Coming Home</a></li>
+								
+									<li class="nav-item "><a href="/presence/guest/">🧞‍♂️ Guest</a></li>
+								
+									<li class="nav-item "><a href="/presence/leavinghome/">🛣 Leaving Home</a></li>
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/changelog/">Change Log</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>HAbitation</h2>
+				<h3>Search</h3>
+			</div>
+			<article class="content">
+				<p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+<ul id="search-results"></ul>
+
+<script>
+	window.data = {
+		
+			
+				
+					
+					
+
+					"daily-afternoon": {
+						"id": "daily-afternoon",
+						"title": "🌅 Afternoon",
+						"category": "",
+						"url": " /daily/afternoon/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"daily-evening": {
+						"id": "daily-evening",
+						"title": "🌅 Evening",
+						"category": "",
+						"url": " /daily/evening/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"daily-morning": {
+						"id": "daily-morning",
+						"title": "🌞 Morning",
+						"category": "",
+						"url": " /daily/morning/",
+						"content": "level 1 level 1 content level 2 level 2 content level 3 level 3 content level 1 level 2 Level 3 Link Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"daily-night": {
+						"id": "daily-night",
+						"title": "🌙 Night",
+						"category": "",
+						"url": " /daily/night/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-alarm": {
+						"id": "devices-alarm",
+						"title": "🚨 Alarm",
+						"category": "",
+						"url": " /devices/alarm/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-appliances": {
+						"id": "devices-appliances",
+						"title": "🧺 Appliances",
+						"category": "",
+						"url": " /devices/appliances/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-cubecontrol": {
+						"id": "devices-cubecontrol",
+						"title": "🧊 Cube Control",
+						"category": "",
+						"url": " /devices/cubecontrol/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-doorbell": {
+						"id": "devices-doorbell",
+						"title": "🚪 Doorbell",
+						"category": "",
+						"url": " /devices/doorbell/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-googlehome": {
+						"id": "devices-googlehome",
+						"title": "🎵 Google Home",
+						"category": "",
+						"url": " /devices/googlehome/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-heating": {
+						"id": "devices-heating",
+						"title": "🔥 Heating",
+						"category": "",
+						"url": " /devices/heating/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"devices-tv": {
+						"id": "devices-tv",
+						"title": "📺 TV",
+						"category": "",
+						"url": " /devices/tv/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"environment-weather": {
+						"id": "environment-weather",
+						"title": "☀️ Weather",
+						"category": "",
+						"url": " /environment/weather/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"light-doors": {
+						"id": "light-doors",
+						"title": "🚪 Doors",
+						"category": "",
+						"url": " /light/doors/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"light-manual": {
+						"id": "light-manual",
+						"title": "🎚 Manual",
+						"category": "",
+						"url": " /light/manual/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"light-movement": {
+						"id": "light-movement",
+						"title": "🚶‍♂️ Movement",
+						"category": "",
+						"url": " /light/movement/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"light-scenes": {
+						"id": "light-scenes",
+						"title": "🎬 Scenes",
+						"category": "",
+						"url": " /light/scenes/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"presence-asleep": {
+						"id": "presence-asleep",
+						"title": "🌙 Asleep",
+						"category": "",
+						"url": " /presence/asleep/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"presence-awake": {
+						"id": "presence-awake",
+						"title": "☀️ Awake",
+						"category": "",
+						"url": " /presence/awake/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"presence-cominghome": {
+						"id": "presence-cominghome",
+						"title": "🏠 Coming Home",
+						"category": "",
+						"url": " /presence/cominghome/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"presence-guest": {
+						"id": "presence-guest",
+						"title": "🧞‍♂️ Guest",
+						"category": "",
+						"url": " /presence/guest/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"presence-leavinghome": {
+						"id": "presence-leavinghome",
+						"title": "🛣 Leaving Home",
+						"category": "",
+						"url": " /presence/leavinghome/",
+						"content": "Use ChatApp on most of your Apple devices. Only the latest versions are supported. To install ChatApp on your device: Open the App Store Search for ChatApp Select Install"
+					}
+
+					
+				
+			
+		
+	};
+</script>
+<script src="/scripts/lunr.min.js"></script>
+<script src="/scripts/search.js"></script>
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+	</body>
+</html>
