@@ -4,24 +4,18 @@ category: Daily
 order: 1
 ---
 
-# level 1
-level 1 content
-## level 2
-level 2 content
-### level 3
-level 3 content
+## Flows
 
-*level 1*
-**level 2**
-***Level 3***
-[Link](http://example.com)
+| Trigger       | Conditions    | Actions | Devices |
+|:------------- |:-------------:|:-------:| -------:|
+| Motion detected in the downstairs hallway | While motion was detected in the upstairs hallway within the last minute | Turn on the lights when the light sensitivity is below a certain threshold | Motion Sensors |
+| When it's 08:30 | It's a working day and I'm home | Turn on the heating in my home office | Presence Detection<br> Smart Radiator Valve |
 
-Use ChatApp on most of your Apple devices. Only the latest versions are supported.
+## Devices
 
-To install ChatApp on your device:
+| Purpose | Device |
+|:------- | :----- |
+| Motion Sensor | Xiaomi Mi Occupancy Sensor |
+| Presence Detection | Presence based on IP availability of your phone |
+| Smart Radiator Valve | TADO Smart Control |
 
-1. Open the App Store
-2. Search for ChatApp
-3. Select **Install**
-
-![](//placehold.it/800x600)
