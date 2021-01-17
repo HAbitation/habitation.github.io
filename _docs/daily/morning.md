@@ -9,7 +9,7 @@ order: 1
 | Trigger       | Conditions    | Actions | Devices |
 |:------------- |:-------------:|:-------:| ------: |
 | Motion detected in the downstairs hallway | While motion was detected in the upstairs hallway within the last minute | Turn off the alarm<br>Turn on the lights when the light sensitivity is below a certain threshold | Motion Detection<br> Light Sensor
-| When it's 08:30 | It's a working day and I'm home | Turn on the heating in my home office | Smart Radiator Valve |
+| When it's 08:30 | It's a working day and I'm home | Turn on the heating in my home office | Smart Radiator Valve<br> Presence Detection |
 
 ## Devices
 

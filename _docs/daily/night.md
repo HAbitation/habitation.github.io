@@ -4,12 +4,17 @@ category: Daily
 order: 4
 ---
 
-Use ChatApp on most of your Apple devices. Only the latest versions are supported.
+## Flows
 
-To install ChatApp on your device:
+| Trigger       | Conditions    | Actions | Devices |
+|:------------- |:-------------:|:-------:| ------: |
+| When it becomes 02:00 | Nobody is home or a guest is present | Turn off the lights and the heating downstairs/in my office | Presence Detection<br> Smart Thermostat<br> Smart Radiator Valve |
 
-1. Open the App Store
-2. Search for ChatApp
-3. Select **Install**
+## Devices
 
-![](//placehold.it/800x600)
+| Purpose | Device | Description |
+|:------- | :----- | :---------- |
+| Presence Detection | Any network-based tool, for Homey you can use [NetScan](https://homey.app/nl-nl/app/nl.terryhendrix.netscan/Net-Scan/) | Presence based on IP availability of your phone |
+| Smart Thermostat | TADO Smart Control | Multi-room heating system |
+| Smart Radiator Valve | TADO Smart Radiator Thermostat | Multi-room heating system |
+
