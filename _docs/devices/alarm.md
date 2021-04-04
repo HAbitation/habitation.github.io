@@ -8,14 +8,12 @@ order: 1
 
 | Trigger       | Conditions    | Actions | Devices |
 |:------------- |:-------------:|:-------:| ------: |
-| Motion detected | Alarm was partially or fully enabled and no guest is present | Send push notification<br>  | Smart Plug |
-| When my office lights are turned on | It is evening/night, my girlfriend is asleep and the TV downstairs is off | Turn off the lights and heating downstairs | TV State Detection |
-| When it becomes 23:00 | My girlfriend is asleep, my office lights are on and the TV downstairs is off | Turn off the lights and heating downstairs | Smart Thermostat |
+| Motion detected | Alarm was armed and no guest is present | Send push notification<br>  | Motion Sensor |
+| Motion detected downstairs hallway | Upstairs hallway zone is active and alarm is armed | Disarm the alarm | Motion Sensor |
+| Motion detected upstairs hallway | Downstairs hallway zone is active and alarm is disarmed | Arm the alarm | Motion Sensor |
 
 ## Devices
 
 | Purpose | Device | Description |
 |:------- | :----- | :---------- |
-| Smart Plug | INNR SP-120 | Keeping track of power consumption to check whether a phone is charging |
-| TV State Detection | Network Based detection | Keeping track of the TV's state based on ICMP ECHO response |
-| Smart Thermostat | TADO Smart Control | Multi-room heating system |
+| Motion Detection | Xiaomi Mi Occupancy Sensor | Detecting movement and marking an area or floor as active for a period of time |
